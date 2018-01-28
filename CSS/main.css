@@ -1,0 +1,375 @@
+/* ~!!FONTS!!~ */
+
+@font-face {
+    font-family: "HW Pano Light Trial";
+    src: url("HW Pano Light Trial.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "HW Pano Regular Trial";
+    src: url("HW Pano Regular Trial.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "LeftTrial-Light";
+    src: url("LeftTrial-Light.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "LeftTrial-Regular";
+    src: url("LeftTrial-Regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "DanzzaTrial-Regular";
+    src: url("DanzzaTrial-Regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family: "NuckleSemiBoldTrial";
+    src: url("NuckleSemiBoldTrial.otf") format('opentype');
+}
+
+
+/* ~ Text ~ */
+
+h1 {
+    color: #191919;
+    font-family: "DanzzaTrial-Regular";
+    font-size: 10em;
+}
+
+#name {
+    margin: auto;
+    padding: none;
+    color: blue;
+}
+
+#bercow {
+    color: red;
+}
+
+h2 {
+    color: #191919;
+    font-family: "HW Pano Regular Trial";
+    font-size: 3em;
+    transition: 1s;
+    border-bottom: 1.5px solid black;
+    width: 2%;
+}
+
+h2:hover {
+    border-bottom: 1.5px solid black;
+    width: 90%;
+}
+
+h3 {
+    color: #191919;
+    font-family: "LeftTrial-Regular";
+    font-size: 1.5em;
+    transition: 1s;
+    padding: 1% 1% 1% 0;
+}
+
+p {
+    color: #191919;
+    font-family: "LeftTrial-Light";
+    line-height: 2em;
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social {
+    text-decoration: none;
+    color: #191919;
+    transition: 1s;
+}
+
+.social:visited {
+    text-decoration: none;
+    color: #191919;
+}
+
+.social:hover {
+    cursor: url(RockOn.cur), pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-size: 1.4em;
+}
+
+#underline {
+    border-left: 1px solid #191919;
+    border-bottom: 1px solid #191919;
+    color: #191919;
+    width: 50%;
+    padding-left: 2%;
+    font-family: "HW Pano Light Trial";
+}
+
+#underline:hover {
+    width: 200%;
+    z-index: 1;
+}
+
+
+/* ~ Containers ~ */
+
+header {
+    background: linear-gradient(180deg, yellow 50%, #FCFAFF 50%);
+    padding: 2%;
+    padding-bottom: 4%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    transition: 1s;
+}
+
+img:hover,
+img:active {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#arrow {
+    text-align: center;
+}
+
+#img {
+    margin: auto;
+    padding: 0;
+}
+
+#border {
+    border: 2em solid #FCFAFF;
+    border-top: 1em;
+    margin: auto;
+    padding: 2%;
+}
+
+body {
+    background: #FCFAFF;
+    cursor: url(Okay.cur), pointer;
+}
+
+button {
+    text-decoration: none;
+    font-family: "LeftTrial-Light";
+    background-color: transparent;
+    color: blue;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    font-size: 3em;
+    transition: 1s;
+}
+
+#bottomButton {
+    background-color: #FCFAFF;
+    color: #191919;
+    border: 2px solid greenyellow;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: yellow;
+    color: blue;
+    border: 2px solid yellow;
+    cursor: url(RockOn.cur), pointer;
+    /* font-size: 2em; */
+}
+
+button:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+#bottomButton:hover {
+    background-color: greenyellow;
+    color: #191919;
+    border: 2px solid greenyellow;
+    font-size: 2em;
+    cursor: url(RockOn.cur), pointer;
+}
+
+#bottomButton:visited {
+    text-decoration: none;
+    color: #191919;
+}
+
+footer {
+    padding-top: 2%;
+    text-align: center;
+    float: clear;
+}
+
+
+/* ~ Hover Effects ~ */
+
+#experience {
+    padding: 2%;
+}
+
+#experience-text {
+    color: blue;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Bandpass {
+    transition: 1s;
+    transition-timing-function: ease-out;
+    background: hsl(0, 100%, 70%);
+}
+
+#Bandpass:hover {
+    background: #FF8F8F;
+    background: #FFABAB;
+}
+
+#education {
+    transition: 1s;
+    padding: 2% 2% 2% 0;
+    x width: 50%;
+}
+
+#education:hover {
+    /* background: yellowgreen; */
+}
+
+#contact {
+    transition: 1s;
+    transition-timing-function: ease-out;
+    /* padding: 2% 2% 2% 2%; */
+    width: 50%;
+    background: #FFFF45;
+}
+
+#contact:hover {
+    background: #E8E800;
+}
+
+#large {
+    transition: 2s;
+    padding: 3%;
+    margin-top: 0;
+    color: hsl(240, 50%, 50%);
+    color: greenyellow;
+}
+
+#large:hover {
+    font-size: 10.4em;
+    animation: shake 3s;
+    animation-iteration-count: infinite;
+    color: greenyellow;
+    color: hsl(0, 100%, 70%);
+    color: red;
+}
+
+.paragraph {
+    margin: 1% auto 0 auto;
+    padding: 2%;
+    flex: 1;
+    box-sizing: border-box;
+    flex-basis: 30%;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-style: bold;
+}
+
+
+/* ~ Flex ~ */
+
+.column1 {
+    flex: 1;
+}
+
+.column2 {
+    flex: 1;
+}
+
+.column3 {
+    flex: 1;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+#clear {
+    clear: both;
+}
+
+#hoops {
+    width: 70px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+#carter {
+    width: 70px;
+    height: auto;
+    position: relative;
+    float: inherit;
+}
+
+#steph {
+    width: 80px;
+    height: auto;
+    position: relative;
+    /* padding-top: 2%;
+    padding-bottom: 2%; */
+    float: inherit;
+}
+
+#shaq {
+    width: 100px;
+    height: auto;
+    position: sticky;
+    float: right;
+}

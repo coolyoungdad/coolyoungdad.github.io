@@ -1,0 +1,110 @@
+/* ~ Small ~ */
+
+@media only screen and (max-width: 900px) {
+ #img{
+     display: none;
+ }
+
+ header {
+    background: linear-gradient(180deg, yellow 30%, #F8F7FA 70%);
+ }
+
+ #bercow {
+    /* background:#0000A3; */
+    /* padding-right: 10%; */
+}
+
+#arrow {
+    display: none;
+}
+
+ h1 {
+     font-size: 6.5vh;
+ }
+
+ h2 {
+     font-size: 4vh;
+ }
+
+ h3 {
+     font-size: 3.25vh;
+ }
+
+ #name {
+     padding-left: 5%;
+ }
+
+ #underline {
+    padding-left: 5%;
+}
+
+ #border {
+    border: 1em solid #F8F7FA;
+    margin: auto;
+    padding: 1%;
+}
+
+body {
+    background-color: #F8F7FA;
+}
+
+#underline {
+    border-left: .1px solid black;
+    border-bottom: 0px solid black;
+    width: 50%;
+    padding-left: 2%;
+    font-family: "HW Pano Light Trial";
+}
+
+
+#education {
+    padding: 2%;
+    width: 100%;
+    background: #FFFF45;
+}
+
+#experience-text {
+    color: #FFFF45;
+}
+
+#contact {
+    padding: 0;
+    width: 100%;
+    background: inherit;
+}
+
+button{
+    display: none;
+}
+
+.box b {
+    position: relative;
+    -webkit-animation: moveX 1.4s linear 0s infinite alternate, moveY 0.3s linear 0s infinite alternate;
+    -moz-animation: moveX 1.4s linear 0s infinite alternate, moveY 0.3s linear 0s infinite alternate;
+    -o-animation: moveX 1.4s linear 0s infinite alternate, moveY 0.3s linear 0s infinite alternate;
+    animation: moveX 1.4s linear 0s infinite alternate, moveY 0.3s linear 0s infinite alternate;
+  }
+
+}
+
+#kobe {
+    float: inherit;
+}
+
+
+/* ~ Big ~ */
+
+@media only screen and (min-width: 900px) {
+    .column-layout {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 3%;
+    }
+
+    .column-layout-second {
+        display: flex;
+        padding: 2%;
+        justify-content: space-between;
+    }
+    
+}
