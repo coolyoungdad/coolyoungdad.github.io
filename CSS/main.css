@@ -175,6 +175,13 @@ button {
     font-size: 1em;
 }
 
+#resume {
+    background-color: #FCFAFF;
+    color: #191919;
+    border: 2px solid greenyellow;
+    font-size: 1em;
+}
+
 button:hover {
     background-color: yellow;
     color: blue;
@@ -197,6 +204,19 @@ button:visited {
 }
 
 #bottomButton:visited {
+    text-decoration: none;
+    color: #191919;
+}
+
+#resume:hover {
+    background-color: greenyellow;
+    color: #191919;
+    border: 2px solid greenyellow;
+    font-size: 2em;
+    cursor: url(RockOn.cur), pointer;
+}
+
+#resume:visited {
     text-decoration: none;
     color: #191919;
 }
@@ -371,5 +391,15 @@ footer {
     width: 100px;
     height: auto;
     position: sticky;
+    float: right;
+}
+
+#mobileBall {
+    padding: 1%;
+    width: 70px;
+    height: auto:
+    position: sticky;
+    margin: 0 auto;
+    margin-right: 5%;
     float: right;
 }

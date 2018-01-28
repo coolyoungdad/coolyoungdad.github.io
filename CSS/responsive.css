@@ -6,12 +6,12 @@
  }
 
  header {
-    background: linear-gradient(180deg, yellow 30%, #F8F7FA 70%);
+    background: linear-gradient(180deg, yellow 30%, yellow 70%);
+    padding-bottom: 5%;
  }
 
  #bercow {
-    /* background:#0000A3; */
-    /* padding-right: 10%; */
+   color: blue;
 }
 
 #arrow {
@@ -39,13 +39,17 @@
 }
 
  #border {
-    border: 1em solid #F8F7FA;
+    border: 1em solid yellow;
     margin: auto;
     padding: 1%;
 }
 
 body {
-    background-color: #F8F7FA;
+    background-color: yellow;
+}
+
+#hoops {
+    display: none;
 }
 
 #underline {
@@ -60,21 +64,39 @@ body {
 #education {
     padding: 2%;
     width: 100%;
-    background: #FFFF45;
+    background: yellow;
+}
+
+#Bandpass {
+    background: yellow;
 }
 
 #experience-text {
-    color: #FFFF45;
+    color: red;
 }
 
 #contact {
     padding: 0;
     width: 100%;
-    background: inherit;
+    background: yellow;
 }
 
 button{
     display: none;
+}
+
+#bottomButton{
+    display: inherit;
+    color: blue;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#resume{
+    display: inherit;
+    color: blue;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .box b {
@@ -105,6 +127,10 @@ button{
         display: flex;
         padding: 2%;
         justify-content: space-between;
+    }
+
+    #mobileBall {
+        display: none;
     }
     
 }
